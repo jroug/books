@@ -1,0 +1,30 @@
+/* body{
+    background-color:#000000;
+    color:#ffffff;
+} */
+h4{
+    text-align: center;
+    margin-bottom:25px;
+    width:100%;
+}
+.float-right{
+    float:right;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+.top-title{
+    float: left;
+    width:100%;
+}
+.t-ac{
+    text-align:center;
+}
+
+thead tr{
+    border-bottom: 1px solid #26a69a !important;
+}
+.search-icon-element{
+    float: left;
+    margin-top: 10px;
+}

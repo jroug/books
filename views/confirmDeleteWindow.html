@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Book</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container" style="margin-top:40px;"> 
+        <div class="row">
+            <form>
+                <input type="hidden" id="book-id" value="0" />
+                <span>Delete Book:</span> <span id="book-title" style="font-weight:bold;"></span>
+                 
+                <div style="width:100%;text-align:center;margin-top:20px;" >
+                    <button type="submit" class="waves-effect waves-light btn red" >Yes</button>
+                    <button type="click" class="waves-effect waves-light btn" onClick="window.close();" >No</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./js/deletePop.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "A simple app to organize your books",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild -f -w sqlite3",
+    "package-rebuild": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "electron-packager . mybooks3  --overwrite --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"My Books\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-rebuild": "^1.10.1",
+    "electron": "^8.2.4"
+  },
+  "dependencies": {
+    "electron": "^8.2.4",
+    "electron-log": "^4.1.1",
+    "electron-packager": "^14.2.1",
+    "knex": "^0.21.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "sqlite": "^4.0.7",
+    "sqlite3": "^4.2.0"
+  }
+}
